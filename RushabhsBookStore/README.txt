@@ -17,6 +17,12 @@ Action Items:
 - Modify the navigation
 - Update the copyright... from 'static' to 'dynamic'
 
-1531
+1545
 Modified the default welcome message tested.
 review the route pattern in Startup.cs
+
+1549
+Confirmed the repo is build. Now I want to test it. 
+
+1553
+Create README.md file in GitHub and pull it in Visual Studio. 
