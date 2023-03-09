@@ -39,3 +39,10 @@ Selected a theme and added bootstrap.min.css file to CSS Folder.
 1453
 Added a code to the bootstrap/css/bootstrap.min.css file. 
 Then try to run the Application. 
+
+1547
+Changed the navclass from navbar-light to navbar-dark and bg-white to bg-primary in _Layout.cshtml in Views folder. 
+
+1550
+Remove text-dark from line 23 in _Layout.cshtml file.
+Then added additional properties to the footer class. 
