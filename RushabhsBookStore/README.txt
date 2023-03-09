@@ -26,3 +26,16 @@ Confirmed the repo is build. Now I want to test it.
 
 1553
 Create README.md file in GitHub and pull it in Visual Studio. 
+
+2023-03-09
+
+1440
+Changed the default bootstrap file to bootstrap_bk.css for the backup purpose. 
+Looking for the theme from the website https://bootswatch.com/.
+
+1451
+Selected a theme and added bootstrap.min.css file to CSS Folder. 
+
+1453
+Added a code to the bootstrap/css/bootstrap.min.css file. 
+Then try to run the Application. 
