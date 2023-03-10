@@ -93,3 +93,8 @@ When I am building the project. Getting 2 Errors.
 Update the NuGet Package AspNetCore.Identity.EntityFrameworkCore to 3.1.27
 Update the  Microsoft.EntityFrameworkCore.SqlServer to 3.1.27
 Built the project and got NO ERRORS.
+
+1538
+Added SD.cs class in .Utility Project. 
+Added a reference of .Utility in the Main project. 
+Added a reference of .Utility and .Models in the .DataAccess project. 
