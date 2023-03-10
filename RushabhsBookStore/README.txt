@@ -78,3 +78,8 @@ And also deleted Class1.cs file from all projects.
 Moved Models folder into .Models Project
 Added a project reference in .DataAccess and .Models project
 Rename the Models folder to ViewModels and also changed the namespace to .Models.ViewModels
+
+1232
+Modify the Startup.cs file and run the application to review the errors.
+Changed the reference in Error.cshtml to .Models.ViewModels.ErrorViewModels and tested the application. 
+But still getting an error while running the application. 
