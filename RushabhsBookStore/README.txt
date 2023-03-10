@@ -56,3 +56,25 @@ Removed text-dark in _LoginPartial.cshtml file and run the Project to review the
 2300
 Added additional stylesheets and scripts from the CSS_JS.txt file in _Layout.cshtml file. 
 Added dropdown to the navbar in _Layout.cshtml file and changed the dropdown name to Content Management. 
+
+1148
+Added 3 New .Net Core Class Library Projects to the Application.
+1) RushabhsBooks.DataAccess
+2) RushabhsBooks.Models
+3) RushabhsBooks.Utility
+
+1151
+Copy the Data folder and paste it to the .DataAccess Project and delete the original.
+
+1205
+Installed Microsoft.EntityFrameworkCore.Relational and SqlServer Packages.
+Also deleted the Migration Folder. 
+
+1215
+Modify the namespace in ApplicationDbContext.cs
+And also deleted Class1.cs file from all projects.
+
+1225
+Moved Models folder into .Models Project
+Added a project reference in .DataAccess and .Models project
+Rename the Models folder to ViewModels and also changed the namespace to .Models.ViewModels
