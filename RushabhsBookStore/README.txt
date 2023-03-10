@@ -46,3 +46,13 @@ Changed the navclass from navbar-light to navbar-dark and bg-white to bg-primary
 1550
 Remove text-dark from line 23 in _Layout.cshtml file.
 Then added additional properties to the footer class. 
+
+2251
+Changed file name from bootstrap.min.css to bootstrap.css
+
+2252
+Removed text-dark in _LoginPartial.cshtml file and run the Project to review the changes.
+
+2300
+Added additional stylesheets and scripts from the CSS_JS.txt file in _Layout.cshtml file. 
+Added dropdown to the navbar in _Layout.cshtml file and changed the dropdown name to Content Management. 
