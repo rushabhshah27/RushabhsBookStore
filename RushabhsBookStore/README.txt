@@ -86,3 +86,8 @@ But still getting an error while running the application.
 
 1505
 Added Identity.Entity Nuget Package. 
+When I am building the project. Getting 2 Errors. 
+
+Update the NuGet Package AspNetCore.Identity.EntityFrameworkCore to 3.1.27
+Update the  Microsoft.EntityFrameworkCore.SqlServer to 3.1.27
+Built the project and got NO ERRORS.
