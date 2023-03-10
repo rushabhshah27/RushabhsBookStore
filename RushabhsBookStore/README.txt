@@ -34,7 +34,7 @@ Changed the default bootstrap file to bootstrap_bk.css for the backup purpose.
 Looking for the theme from the website https://bootswatch.com/.
 
 1451
-Selected a theme and added bootstrap.min.css file to CSS Folder. 
+Selected a theme of 'VAPOR' and added bootstrap.min.css file to CSS Folder. 
 
 1453
 Added a code to the bootstrap/css/bootstrap.min.css file. 
@@ -56,6 +56,8 @@ Removed text-dark in _LoginPartial.cshtml file and run the Project to review the
 2300
 Added additional stylesheets and scripts from the CSS_JS.txt file in _Layout.cshtml file. 
 Added dropdown to the navbar in _Layout.cshtml file and changed the dropdown name to Content Management. 
+
+2023-03-10
 
 1148
 Added 3 New .Net Core Class Library Projects to the Application.
