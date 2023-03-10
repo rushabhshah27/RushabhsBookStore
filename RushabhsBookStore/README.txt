@@ -83,3 +83,6 @@ Rename the Models folder to ViewModels and also changed the namespace to .Models
 Modify the Startup.cs file and run the application to review the errors.
 Changed the reference in Error.cshtml to .Models.ViewModels.ErrorViewModels and tested the application. 
 But still getting an error while running the application. 
+
+1505
+Added Identity.Entity Nuget Package. 
