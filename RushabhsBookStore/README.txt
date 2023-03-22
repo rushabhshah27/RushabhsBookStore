@@ -98,3 +98,29 @@ Built the project and got NO ERRORS.
 Added SD.cs class in .Utility Project. 
 Added a reference of .Utility in the Main project. 
 Added a reference of .Utility and .Models in the .DataAccess project. 
+
+2023-03-21
+2300
+Added a Customer area to Areas.
+Changed the routes in Startup.cs file like the one in the ScaffoldingReadMe.txt file.
+
+2310
+Moved the HomeController.cs to the Controller folder and deleted the Data and Models.
+Also defined that the controller is in the Customer area.
+Moved Home folder to Views folder in Customer folder.
+
+Run the application. It gives an error.
+
+2315
+Copied the _ViewImports.cshtml and _ViewStart.cshtml file to the Customers folder.
+Modified the _ViewStart.cshtml to reflect the new path.
+
+2317
+Run the application. Still getting an error. 
+
+2320
+Added an Admin area in Areas.
+Also added Views files and deleted the Data and Model and Controllers folders.
+
+2325
+Again Run the application but still getting an error. 
