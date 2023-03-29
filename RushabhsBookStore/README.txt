@@ -124,3 +124,11 @@ Also added Views files and deleted the Data and Model and Controllers folders.
 
 2325
 Again Run the application but still getting an error. 
+
+2023-03-29
+1800
+Again run the application and still getting an error. 
+
+1803
+Update the Nudget Packages version from 5.1 to 3.1.27.
+Try to run the application and It works properly without any error. 
