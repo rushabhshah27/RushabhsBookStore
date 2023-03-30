@@ -172,3 +172,32 @@ Therefore, Deleted the AddCategoryToDb.cs file and again run the command add-mig
 
 1525
 Updated the Database and checked the Category Table in SQL SOE.
+
+1720
+Added a Repository folder to the .DataAccess project. 
+Also added an IRepository folder inside the Repository folder. 
+
+1730
+Created IRepository.cs interface file and modified it with the given code.
+
+1741
+Again modified the IRepository.cs file to perform CRUD operations.
+
+1756
+Modified the code to create constructors and DI with the help of provided Assignment 2 folder.
+
+1830
+Created individual repos for Category - CategoryRepository.cs and ICategoryRepository.cs
+
+1844
+Modified the CategoryRepository.cs file.
+
+1846
+Also Modified the ICategoryRepository.cs file.
+
+1858
+Added remaining modifications in CategoryRepository.cs file.
+
+1905
+Modified the Update in CategoryRepository.cs file.
+Built the application and it worked. Without any errors. 
