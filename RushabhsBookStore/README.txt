@@ -132,3 +132,43 @@ Again run the application and still getting an error.
 1803
 Update the Nudget Packages version from 5.1 to 3.1.27.
 Try to run the application and It works properly without any error. 
+
+2023-03-30
+1345
+Starting the Part 2 of this Assignment. 
+Build the Application and confirmed that there are no errors. 
+
+1355
+Reviewed the appsettings.json file and modified the database name. 
+
+1400
+Added the migration using Nuget Package Manager Console with 'add-migration AddDefaultIdentityMigration'
+It gives error as I selected the wrong project.
+
+1403
+I performed migration again with .DataAccess Project and it builded successfully. 
+The new added migration file name: "20230330180032_AddDefaultIdentityMigration.cs"
+and I reviewed the file. 
+
+1408
+Update the database by the following command 'update-database' in the PM Console.
+
+1410
+Reviewed the Updated database from SQL Server Object Explorer and run the application. 
+The application is working without any errors. 
+
+1420
+Added a Category.cs file to the .Models Project and also modified it.
+
+1426
+Added the migration via PM Console with 'add-migration AddCategoryToDb'.
+
+1431
+Update the ApplicationDbContext.cs file with 'public DbSet<Category> Categories { get; set; }' and using RushabhsBooks.Models statements.
+
+1500
+Trying to re-run the add-migration AddCategoryToDb via PM Console, but it shows that the migration is already exists. 
+Therefore, Deleted the AddCategoryToDb.cs file and again run the command add-migration AddCategoryToDb in PM Console. 
+
+1525
+Updated the Database and checked the Category Table in SQL SOE.
