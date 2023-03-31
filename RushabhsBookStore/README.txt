@@ -220,3 +220,19 @@ Added a UnitOfWork.cs class file to the Repository folder and modified it with t
 
 2105
 To make it accessible, added 'services.AddScoped<IUnitOfWork, UnitOfWork>();' in Startup.cs file.
+
+2300
+Added a new MVC Controller Empty named CategoryController.cs file inside Areas/Admin/Controllers.
+
+2312
+Modified the CategoryController.cs file.
+
+2315
+Added a Category named folder inside the Admin/Views.
+
+2320
+Added a RazorView named "Index.cshtml" file into the Category folder and update the provided code. 
+
+2333
+Moved the Category link to the _Layout.cshtml file.
+Run the application and check the Category section.
