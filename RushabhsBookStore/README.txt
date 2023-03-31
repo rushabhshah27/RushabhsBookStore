@@ -236,3 +236,49 @@ Added a RazorView named "Index.cshtml" file into the Category folder and update 
 2333
 Moved the Category link to the _Layout.cshtml file.
 Run the application and check the Category section.
+
+2356
+Modified the Index.cshtml to add the icons in the Category section and checked it and commented that code.
+
+2023-03-31
+0005
+Created category.js file in the wwwroot and update provided code. 
+
+0007
+Gave the path of category.js file into the Index.cshtml file.
+
+0015
+Update the CategoryController.cs file with the Upsert action. 
+
+0030
+Created a Razor View Upsert.cshtml file in Category folder with updating the provided code. 
+
+0047
+Created a partial view for edit and back. 
+Added the partial view for _CreateAndBackToList.cshtml and _EditAndBackToListButton.cshtml files.
+Also added @model razor statement in the _EditAndBackToListButton.cshtml
+
+0105
+Modified the Upsert.cshtml with the @model statement and added the asp-action to the Index.cshtml file.
+
+0112
+Modified Upsert.cshtml file with @title variable instead of TITLE.
+Also, Added @section Script to the Upsert.cshtml file and run the application.
+
+0136
+Created Upsert POST action method in the CategoryController.cs file.
+Added the Save() method to the IUnitOfWork interface.
+Also, Removed the _db.SaveChanges() method in the CategoryRepository.cs file and moved _unitOfWork.Save() method with the return RedirectToAction method.
+
+0200
+Test the application to check it can update and create a category. 
+
+0206
+Added the API for HttpDelete in the CategoryController.cs file.
+
+0210
+After that, Implemented a delete method and delete functionality with onclick event in category.js file.
+
+0225
+Added Delete(url) function code in the category.js file.
+Now try to run the application. It works perfectly without any error. However, the delete operation is not performed properly.
