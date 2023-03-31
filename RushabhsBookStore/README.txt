@@ -200,4 +200,23 @@ Added remaining modifications in CategoryRepository.cs file.
 
 1905
 Modified the Update in CategoryRepository.cs file.
-Built the application and it worked. Without any errors. 
+Built the application and it worked. Without any errors.
+
+1914
+Added a new interface named as ISP_Call.cs file that extends IDisposable in the IRepository folder.
+
+1930
+Added a Nuget package named Dapper and modified the ISP_Call.cs file.
+
+1940
+Created SP_Call.cs file in the Repository folder. 
+Implement the SP_Call.cs file with the necessary commands. 
+
+2020
+Added a IUnitOfWork.cs interface file in the IRepository folder with updating a code. 
+
+2021
+Added a UnitOfWork.cs class file to the Repository folder and modified it with the necessary code.
+
+2105
+To make it accessible, added 'services.AddScoped<IUnitOfWork, UnitOfWork>();' in Startup.cs file.
