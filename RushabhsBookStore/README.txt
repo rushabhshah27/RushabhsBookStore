@@ -319,3 +319,25 @@ Added CoverType Index View and Upsert View.
 Also the Delete CoverType is done using API Call. 
 
 Run the application and check the CoverType. Performed well except Delete action. 
+
+1736
+Added a class named Product.cs in the Models Project. 
+Update that class with the given code. 
+
+1740
+Added Products to the ApplicationDbContext.cs file.
+
+1742
+Performed migration on Product using command add-migration AddProductToDb in PM Console. 
+This file named 20230413214107_AddProductToDb.cs is created while performing migration. 
+Update the database ane verified this table using SQL SOE.
+
+1750
+Made Title, ISBN and Author fields Required. 
+Created a new Migration named AddValidationToProduct and updated the Database. 
+
+1807
+Added Product to Repository and IRepository. 
+Also Added Update method in the ProductRepository Class. 
+Added Product to the UnitOfWork and IUnitOfWork. 
+Build the Project. No errors!
