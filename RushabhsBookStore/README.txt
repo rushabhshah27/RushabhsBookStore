@@ -282,3 +282,40 @@ After that, Implemented a delete method and delete functionality with onclick ev
 0225
 Added Delete(url) function code in the category.js file.
 Now try to run the application. It works perfectly without any error. However, the delete operation is not performed properly.
+
+PART 3
+13-04-2023
+
+1535
+Created CoverType.cs file in Models Project.
+Added 2 CoverType Model in this class. ID and Name.
+
+1543
+Migration performed with PM Console.
+Added a file named 20230413195221_AddCoverTypeToDb.cs after performing migration. 
+Added CoverType to ApplicationDBContext.cs
+
+1557
+Checked that CoverType Table is there with SQL SOE. 
+
+1605
+Created a class named CoverTypeRepository.cs in Repository Folder.
+Also Created ICoverTypeRepository.cs interface in IRepository Folder. 
+
+1615
+Update both the CoverTypeRepository.cs and ICoverTypeRepository.cs file. 
+
+1621
+Update the UnitOfWork and IUnitOfWork files by adding the CoverType in it. 
+
+1635
+Created CoverTypeController.cs file and update it with the necessary code in Areas/Admin/Controller.
+
+1720
+Performed CRUD Operation on CoverType.
+Such as Added CoverType to NavBar
+Added CoverType Controller with required Action Methods
+Added CoverType Index View and Upsert View.
+Also the Delete CoverType is done using API Call. 
+
+Run the application and check the CoverType. Performed well except Delete action. 

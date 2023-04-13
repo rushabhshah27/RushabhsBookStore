@@ -1,8 +1,8 @@
-﻿@model RushabhsBooks.Models.Category;
+﻿@model RushabhsBooks.Models.CoverType;
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var title = "Create Category";
+    var title = "Create CoverType";
 }
 
 <form method="post">
@@ -11,7 +11,7 @@
         @if (Model.Id != null)
         {
             //Edit
-            title = "Edit Category";
+            title = "Edit CoverType";
         }
         <div class="col-12 border-bottom">
             <h2 class="text-primary">@title</h2>

@@ -7,6 +7,10 @@
   <ItemGroup>
     <Compile Remove="Migrations\20230330181701_AddCategoryToDb.cs" />
     <Compile Remove="Migrations\20230330181701_AddCategoryToDb.Designer.cs" />
+    <Compile Remove="Migrations\20230413194049_AddCoverTypeToDb.cs" />
+    <Compile Remove="Migrations\20230413194049_AddCoverTypeToDb.Designer.cs" />
+    <Compile Remove="Migrations\20230413195144_AddCoverTypeToDb.cs" />
+    <Compile Remove="Migrations\20230413195144_AddCoverTypeToDb.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
