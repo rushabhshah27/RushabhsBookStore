@@ -341,3 +341,29 @@ Added Product to Repository and IRepository.
 Also Added Update method in the ProductRepository Class. 
 Added Product to the UnitOfWork and IUnitOfWork. 
 Build the Project. No errors!
+
+1913
+Created ProductController.cs in the Area/Admin/Controllers and update it with the given code. 
+
+1931
+Created ProductVM.cs file in ViewModels Folder and installed Microsoft.AspNetCore.Mvc.ViewFeatures Package.
+
+1949
+Modify the ProductController.cs with Upsert calls to the ProductVM View Model. 
+Also modified the API Call. 
+
+2003
+Added product.js file in the wwwroot>js folder.
+
+2009
+Added an Index View named Index.cshtml in the Areas/Views/Product.
+
+2014
+Updated Index.cshtml of Product. 
+
+2019
+Updated the product.js file same as category.js.
+
+2021
+Modified the _Layout.cshtml with adding a link of Product.
+Run the application and when I click the Product then it displayed but at the end find an exception. 
