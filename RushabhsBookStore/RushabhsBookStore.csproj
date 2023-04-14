@@ -30,6 +30,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\Customer\Data\" />
+    <Folder Include="wwwroot\images\products\" />
   </ItemGroup>
 
 </Project>

@@ -367,3 +367,17 @@ Updated the product.js file same as category.js.
 2021
 Modified the _Layout.cshtml with adding a link of Product.
 Run the application and when I click the Product then it displayed but at the end find an exception. 
+
+2058
+Created Upsert.cshtml file in Areas/Admin/Views/Product.
+Updated that file with the provided code. 
+
+2108
+Created an account in tiny.cloud and used my API Key and update the Upsert.cshtml file.
+
+2132
+Created 'images' folder in wwwroot and 'products' folder in 'images' folder.
+
+2145
+Comment out the Upsert action in ProductCongtroller.cs file.
+Run the application, but still getting an exception. 
