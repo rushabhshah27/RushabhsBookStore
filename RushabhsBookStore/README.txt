@@ -34,7 +34,7 @@ Changed the default bootstrap file to bootstrap_bk.css for the backup purpose.
 Looking for the theme from the website https://bootswatch.com/.
 
 1451
-Selected a theme of 'VAPOR' and added bootstrap.min.css file to CSS Folder. 
+Selected a theme of 'Sandstone' and added bootstrap.min.css file to CSS Folder. 
 
 1453
 Added a code to the bootstrap/css/bootstrap.min.css file. 
@@ -381,3 +381,9 @@ Created 'images' folder in wwwroot and 'products' folder in 'images' folder.
 2145
 Comment out the Upsert action in ProductCongtroller.cs file.
 Run the application, but still getting an exception. 
+
+2023-04-17
+
+1350
+Made some little bit changes to in js files so the delete action works well. 
+Run the application and it works. However, Still getting an exception while clicking on the Product.
