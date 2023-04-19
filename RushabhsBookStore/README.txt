@@ -387,3 +387,8 @@ Run the application, but still getting an exception.
 1350
 Made some little bit changes to in js files so the delete action works well. 
 Run the application and it works. However, Still getting an exception while clicking on the Product.
+
+2023-04-19
+1048
+Finally found a minor mistake in the code of ProductController.cs file and run the application. 
+The exception is gone and application run successfully. 
