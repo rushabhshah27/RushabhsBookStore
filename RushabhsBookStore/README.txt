@@ -410,3 +410,6 @@ Added Product in the HomeController and update the HomeController.cs file from A
 1221
 Updated the Index.cshtml file from the folder Areas/Customer/Views/Home to reflect the Product in the home page.
 Run the application and it runs successfully without any errors. 
+
+1640
+Added 3 Products. They are added and updated without any error. Also, It is visible to the Index Page. Yay!
