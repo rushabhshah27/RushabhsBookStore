@@ -6,9 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Customer\Data\**" />
     <Compile Remove="Areas\Customer\Models\**" />
+    <Content Remove="Areas\Customer\Data\**" />
     <Content Remove="Areas\Customer\Models\**" />
+    <EmbeddedResource Remove="Areas\Customer\Data\**" />
     <EmbeddedResource Remove="Areas\Customer\Models\**" />
+    <None Remove="Areas\Customer\Data\**" />
     <None Remove="Areas\Customer\Models\**" />
   </ItemGroup>
 
@@ -29,7 +33,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Customer\Data\" />
     <Folder Include="wwwroot\images\products\" />
   </ItemGroup>
 

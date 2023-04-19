@@ -389,6 +389,24 @@ Made some little bit changes to in js files so the delete action works well.
 Run the application and it works. However, Still getting an exception while clicking on the Product.
 
 2023-04-19
+
 1048
 Finally found a minor mistake in the code of ProductController.cs file and run the application. 
 The exception is gone and application run successfully. 
+
+1122
+Update the Product Upsert Post Action Method in ProductController.cs file. 
+
+1133
+Update the Product Upsert.cshtml file.
+
+1208
+Facing an error while updating the product. So Try to solve it by updating the code in ProductController.cs file. 
+Also Added Delete in ProductController.cs file.
+
+1216
+Added Product in the HomeController and update the HomeController.cs file from Areas/Customer/Controllers folder. 
+
+1221
+Updated the Index.cshtml file from the folder Areas/Customer/Views/Home to reflect the Product in the home page.
+Run the application and it runs successfully without any errors. 
