@@ -1,1 +1,3 @@
 Created Project at SCC in Winter 2023
+
+This in-progress application is being developed using ASP.NET Core MVC (.NET 5) and ASP.NET Core Razor Pages, and makes use of Dependency Injection, Entity Framework Core, SQL Server, and CRUD Operations. Its current functionality allows users to perform CRUD Operations using Entity Framework Core. When completed, the application will provide a platform for ordering books online in bulk, with attractive discounts for users ordering as an individual. The login process will be simplified through the use of Google account credentials. A number of other features are also planned for inclusion in the final version of the application.
